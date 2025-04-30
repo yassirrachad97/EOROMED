@@ -58,22 +58,27 @@ export default function Header({ activeSection }: HeaderProps) {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-40 bg-gradient-to-r from-blue-900/90 via-blue-800/90 to-blue-700/90 backdrop-blur-md">
+     <header className="fixed top-0 left-0 right-0 z-40 bg-[#002c5f]/80 backdrop-blur-md">
+
+
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            <motion.div
-              className="flex items-center space-x-2"
-              initial={{ x: -20, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.4 }}
-            >
-              <Sparkles className="h-6 w-6 text-blue-400" />
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-500">
-                UEMF
-              </span>
-            </motion.div>
+                        <motion.div
+                className="flex items-center space-x-2"
+                initial={{ x: -20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.4 }}
+              >
+                              <img 
+                  src="/logoUEMF.png" 
+                  alt="Logo UEMF"
+                  className="h-12 w-auto object-contain"
+                />
 
-            {/* Desktop Navigation - Minimized */}
+              
+              </motion.div>
+
+
             <motion.nav
               className="hidden md:flex space-x-1"
               initial={{ y: -10, opacity: 0 }}

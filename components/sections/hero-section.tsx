@@ -21,15 +21,14 @@ export default function HeroSection({ backgroundY, opacity, scale }: HeroSection
           style={{
             
            
-            backgroundImage: `url('https://ueuromed.org/sites/default/files/2025-01/slide_inscription_1.jpg')`,
+            backgroundImage: `url('/slide_inscription_1.jpg')`,
+
           }}
         />
 
-        {/* Overlay with reduced opacity - changed from 70% to 40% */}
         <div className="absolute inset-0 bg-gradient-to-r from-purple-900/40 via-indigo-900/30 to-blue-900/40" />
       </motion.div>
 
-      {/* Content */}
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div

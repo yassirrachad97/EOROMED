@@ -10,42 +10,45 @@ interface Feature {
 }
 
 export default function WhyChooseSection() {
-  const features: Feature[] = [
-    {
-      title: "Formation de qualité",
-      description:
-        "L'UEMF délivre des formations aux trois cycles (Licence, Ingénierie, Master et Doctorat) et ses diplômes sont reconnus par l'État marocain.",
-      image: "https://ueuromed.org/sites/default/files/2024-10/formation-de-qualite-uemf.jpg", 
-    },
-    {
-      title: "Profil Euromed Multidimensionnel",
-      description:
-        "Plusieurs formations sont en double diplomation avec les meilleures universités euro-méditerranéennes.",
-      image: "https://ueuromed.org/sites/default/files/2020-04/profil-euromed-a-haut-potentiel-euromed-fes-1.jpg",
-    },
-    {
-      title: "Mobilité Internationale",
-      description:
-        "L'UEMF est une fondation d'utilité publique avec l'appui de ses 43 pays membres de l'Union pour la Méditerranée (UpM).",
-      image: "https://ueuromed.org/sites/default/files/2024-10/mobilite-universite-euromed-fes.jpeg", 
-    },
-    {
-      title: "Eco-campus",
-      description: "Un campus moderne et écologique offrant un environnement d'apprentissage optimal.",
-      image: "https://ueuromed.org/sites/default/files/2024-10/ecocampus-uemf-fes.jpg",
-    },
-    {
-      title: "Recherche de pointe",
-      description: "Des laboratoires équipés des dernières technologies pour une recherche innovante.",
-      image: "https://ueuromed.org/sites/default/files/2020-04/une-recherche-de-pointe-euromed-fes-1.jpg",
-    },
-    {
-      title: "Partenariat socioéconomique",
-      description: "Des collaborations étroites avec le monde professionnel pour une meilleure insertion.",
-      image: "https://ueuromed.org/sites/default/files/2020-05/partenaires-socio-economique-euromed-fes-1.jpeg",
-    },
-  ]
-
+    const features: Feature[] = [
+        {
+          title: "Formation de qualité",
+          description:
+            "L'UEMF délivre des formations aux trois cycles (Licence, Ingénierie, Master et Doctorat) et ses diplômes sont reconnus par l'État marocain.",
+          image: "/formation/formation (3).jpg",
+        },
+        {
+          title: "Profil Euromed Multidimensionnel",
+          description:
+            "Plusieurs formations sont en double diplomation avec les meilleures universités euro-méditerranéennes.",
+          image: "/formation/formation (4).jpg",
+        },
+        {
+          title: "Mobilité Internationale",
+          description:
+            "L'UEMF est une fondation d'utilité publique avec l'appui de ses 43 pays membres de l'Union pour la Méditerranée (UpM).",
+          image: "/formation/formation (6).jpeg",
+        },
+        {
+          title: "Eco-campus",
+          description:
+            "Un campus moderne et écologique offrant un environnement d'apprentissage optimal.",
+          image: "/formation/formation (2).jpg",
+        },
+        {
+          title: "Recherche de pointe",
+          description:
+            "Des laboratoires équipés des dernières technologies pour une recherche innovante.",
+          image: "/formation/formation (5).jpg",
+        },
+        {
+          title: "Partenariat socioéconomique",
+          description:
+            "Des collaborations étroites avec le monde professionnel pour une meilleure insertion.",
+          image: "/formation/formation (1).jpeg",
+        },
+      ]
+      
   return (
     <section className="relative py-20 bg-black">
 

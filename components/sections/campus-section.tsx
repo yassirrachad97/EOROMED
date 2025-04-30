@@ -25,11 +25,11 @@ export default function CampusSection() {
   ]
 
   const campusImages = [
-    { src: "https://ueuromed.org/sites/default/files/2020-06/eco_campus-vue-batiment-b2-restaurant.jpg", alt: "Vue panoramique du campus UEMF" },
-    { src: "https://ueuromed.org/sites/default/files/2020-06/eco_campus-amphitheatre-b1.jpg", alt: "Amphithéâtre de l'UEMF" },
-    { src: "https://ueuromed.org/sites/default/files/2020-06/eco_campus-batiment-b1.jpg", alt: "Installation sportive de l'UEMF" },
-    { src: "https://ueuromed.org/sites/default/files/2020-06/eco_campus-batiment-b2-enseigne-uemf.jpg", alt: "Bibliothèque UEMF" },
-    { src: "https://ueuromed.org/sites/default/files/2020-06/eco_campus-bibliotheque.jpg", alt: "Espaces de collaboration de l'UEMF" },
+    { src: "/campus/campus (1).jpg", alt: "Vue panoramique du campus UEMF" },
+    { src: "/campus/campus (2).jpg", alt: "Amphithéâtre de l'UEMF" },
+    { src: "/campus/campus (3).jpg", alt: "Installation sportive de l'UEMF" },
+    { src: "/campus/campus (4).jpg", alt: "Bibliothèque UEMF" },
+    { src: "/campus/campus (5).jpg", alt: "Espaces de collaboration de l'UEMF" },
   ]
 
   const nextImage = () => {
@@ -146,42 +146,42 @@ export default function CampusSection() {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <Image src="https://ueuromed.org/sites/default/files/2020-06/eco_campus-vue-batiment-b2-restaurant.jpg" alt="Bâtiments du campus UEMF" width={400} height={300} className="w-full h-full object-cover" />
+              <Image src="/campus/campus (1).jpg" alt="Bâtiments du campus UEMF" width={400} height={300} className="w-full h-full object-cover" />
             </motion.div>
             <motion.div 
               className="h-64 overflow-hidden rounded-lg"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <Image src="https://ueuromed.org/sites/default/files/2020-06/eco_campus-amphitheatre-b1.jpg" alt="Amphithéâtre UEMF" width={400} height={300} className="w-full h-full object-cover" />
+              <Image src="/campus/campus (2).jpg" alt="Amphithéâtre UEMF" width={400} height={300} className="w-full h-full object-cover" />
             </motion.div>
             <motion.div 
               className="h-64 overflow-hidden rounded-lg"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <Image src="https://ueuromed.org/sites/default/files/2020-06/eco_campus-batiment-b1.jpg" alt="Complexe sportif UEMF" width={400} height={300} className="w-full h-full object-cover" />
+              <Image src="/campus/campus (3).jpg" alt="Complexe sportif UEMF" width={400} height={300} className="w-full h-full object-cover" />
             </motion.div>
             <motion.div 
               className="h-64 overflow-hidden rounded-lg"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <Image src="https://ueuromed.org/sites/default/files/2020-06/eco_campus-batiment-b2-enseigne-uemf.jpg" alt="Bibliothèque UEMF" width={400} height={300} className="w-full h-full object-cover" />
+              <Image src="/campus/campus (4).jpg" alt="Bibliothèque UEMF" width={400} height={300} className="w-full h-full object-cover" />
             </motion.div>
             <motion.div 
               className="h-64 overflow-hidden rounded-lg"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <Image src="https://ueuromed.org/sites/default/files/2020-06/eco_campus-bibliotheque.jpg" alt="Zone d'innovation UEMF" width={400} height={300} className="w-full h-full object-cover" />
+              <Image src="/campus/campus (5).jpg" alt="Zone d'innovation UEMF" width={400} height={300} className="w-full h-full object-cover" />
             </motion.div>
             <motion.div 
               className="h-64 overflow-hidden rounded-lg"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <Image src="https://ueuromed.org/sites/default/files/2020-06/eco_campus-centre-sportif.jpg" alt="Centre sportif UEMF" width={400} height={300} className="w-full h-full object-cover" />
+              <Image src="/campus/campus (6).jpg" alt="Centre sportif UEMF" width={400} height={300} className="w-full h-full object-cover" />
             </motion.div>
           </div>
         </div>

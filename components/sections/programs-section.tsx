@@ -18,46 +18,47 @@ export default function ActualitesSection() {
     {
       categorie: "Annonces diverses",
       titre: "L'UNAOC attribue son label : Chaire des Nations Unies pour l'Alliance des Civilisations",
-      image: "https://ueuromed.org/sites/default/files/2025-04/sans-titre-0_2.jpg",
+      image: "/actuality/actuality (6).jpg",
       lien: "#",
       couleurCategorie: "#4DB6AC",
     },
     {
       categorie: "Activités sportives",
       titre: "Olympiades de l'ISCAE : Performances sportives exceptionnelles des UEMFistes",
-      image: "https://ueuromed.org/sites/default/files/2025-04/65.jpg",
+      image: "/actuality/actuality (3).jpg",
       lien: "#",
       couleurCategorie: "#F59E0B",
     },
     {
       categorie: "Formations",
       titre: "Programme de formation des élus et personnel de la région Fès-Meknès",
-      image: "https://ueuromed.org/sites/default/files/2025-04/sans-titre-0.jpg",
+      image: "/actuality/actuality (5).jpg",
       lien: "#",
       couleurCategorie: "#8B5CF6",
     },
     {
       categorie: "Cycle de conférences",
       titre: "Journée du Design Italien : Lire la nature et protéger sa culture",
-      image: "https://ueuromed.org/sites/default/files/2025-04/10_2.jpg",
+      image: "/actuality/actuality (1).jpg",
       lien: "#",
       couleurCategorie: "#EC4899",
     },
     {
       categorie: "Activités Pédagogiques",
       titre: "Le Moroccan Day of Mathematics dignement accueilli par l'UEMF",
-      image: "https://ueuromed.org/sites/default/files/2025-04/00.jpg",
+      image: "/actuality/actuality (2).jpg",
       lien: "#",
       couleurCategorie: "#10B981",
     },
     {
       categorie: "Conventions & Accords",
       titre: "Valorisation du patrimoine artisanal : un accord-cadre stratégique pour la région",
-      image: "https://ueuromed.org/sites/default/files/2025-04/5684.jpg",
+      image: "/actuality/actuality (4).jpg",
       lien: "#",
       couleurCategorie: "#3B82F6",
     },
   ]
+  
 
   return (
     <section className="relative py-20 bg-gradient-to-b from-purple-900 to-indigo-900 overflow-hidden">
